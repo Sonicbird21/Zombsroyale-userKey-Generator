@@ -1,6 +1,5 @@
 import random
 import requests
-import sys
 
 print("-" * 50)
 print("Sonic's Zombsroyale UserKeyGen v.1.0")
@@ -27,7 +26,7 @@ def gen():
                 print("Connection timed out! (Probably blocked)")
     except KeyboardInterrupt:
         print("\nExiting program.")
-        sys.exit()
+        exit()
 
 
 gen()
